@@ -1,0 +1,17 @@
+using System;
+class calculator
+{
+    static void Main()
+    {
+        Console.WriteLine("enter two number");
+        int a=Convert.ToInt32(Console.ReadLine());
+        int b = Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine("Addition is"+(a+b));
+        Console.WriteLine("subtraction is"+(a-b));
+        Console.WriteLine("multiplication is"+(a*b));
+        Console.WriteLine("division is"+(a/b));    
+        Console.WriteLine("modulas is"+(a%b));
+    }
+
+}
+
